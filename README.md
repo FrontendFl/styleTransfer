@@ -11,8 +11,8 @@
 ![image](https://github.com/FrontendFl/styleTransfer/assets/141465107/2f9a0d79-453b-417f-ab76-266b2fb67c69)
 
 ## 运行
-npm install 
+`npm install`
 
-npm run serve
+`npm run serve`
 
 ## 掘金文章链接：
