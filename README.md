@@ -12,6 +12,7 @@
 
 ## 运行
 npm install 
+
 npm run serve
 
 ## 掘金文章链接：
