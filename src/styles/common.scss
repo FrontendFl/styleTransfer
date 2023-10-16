@@ -1,0 +1,48 @@
+.zIndexMax {
+  z-index: 99999999 !important;
+}
+
+
+/* mt0 - mt20, 且为5的倍数 */
+@for $i from 0 through 4 {
+  $r: $i * 5;
+  .mt#{$r} { margin-top: 1px * $r; }
+}
+
+/* ml0 - ml20, 且为5的倍数 */
+@for $i from 0 through 4 {
+  $r: $i * 5;
+  .ml#{$r} { margin-left: 1px * $r; }
+}
+
+/* mb0 - mb20, 且为5的倍数 */
+@for $i from 0 through 4 {
+  $r: $i * 5;
+  .mb#{$r} { margin-bottom: 1px * $r; }
+}
+
+.block {
+  display: block;
+}
+
+.flex-middle {
+  display: flex;
+  align-items: center;
+}
+
+.auto {
+  margin: 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.success {
+  color: green;
+}
